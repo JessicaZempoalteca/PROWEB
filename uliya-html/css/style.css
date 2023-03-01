@@ -88,6 +88,7 @@ body {
 .header_section .container-fluid {
   padding-right: 25px;
   padding-left: 25px;
+  background-color:	#B8008A;
 }
 
 .header_section .nav_container {
@@ -97,7 +98,7 @@ body {
 .custom_nav-container .navbar-nav .nav-item .nav-link {
   margin: 10px 30px;
   padding: 0;
-  color: #0fcfdc;
+  color: #ffffff;
   text-align: center;
   position: relative;
   text-transform: uppercase;
@@ -112,7 +113,7 @@ body {
   left: -10px;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
-  background-color: #0fcfdc;
+  background-color: #ffffff;
   border-radius: 100%;
 }
 
@@ -170,7 +171,7 @@ a:focus {
 .navbar-brand span {
   font-size: 20px;
   font-weight: 700;
-  color: #0fcfdc;
+  color: #ffffff;
   text-transform: uppercase;
 }
 
