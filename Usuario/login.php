@@ -4,8 +4,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>AdminLTE 3 | Log in (v2)</title>
-
+    <title>PROWEB | Ingresar</title>
+    <link rel="icon" href="../uliya-html/images/Circulo_cromatico.svg.png">
     <!-- Google Font: Source Sans Pro -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
     <!-- Font Awesome -->
@@ -17,11 +17,12 @@
 </head>
 
 <body class="hold-transition login-page">
+    
     <div class="login-box">
         <!-- /.login-logo -->
         <div class="card card-outline card-primary">
             <div class="card-header text-center">
-                <a href="../../index2.html" class="h1"><b>PRO</b>WEB</a>
+                <a href="../uliya-html/index.html" class="h1"><b>PRO</b>WEB</a>
             </div>
             <div class="card-body">
                 <p class="login-box-msg">Inicia sesión para guardar tu progreso</p>
