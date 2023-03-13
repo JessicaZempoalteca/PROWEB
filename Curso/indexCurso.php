@@ -40,7 +40,7 @@
         <!-- Navbar -->
         <nav class="main-header navbar navbar-expand navbar-white navbar-light">
                 <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
-            <a class="navbar-brand" href="index.html">
+            <a class="navbar-brand" href="../uliya-html/index.html">
                 <img src="./resources/images/Circulo_cromatico.svg.png" alt="" height="20px">
                 <span>
                     PROWEB
@@ -55,7 +55,7 @@
                 <div class="d-flex ml-auto flex-column flex-lg-row align-items-center">
                     <ul class="navbar-nav  ">
                         <li class="nav-item ">
-                            <a class="nav-link" href="index.html">Inicio </a>
+                            <a class="nav-link" href="../uliya-html/index.html">Inicio </a>
                         </li>
                         <li class="nav-item active">
                             <a class="nav-link" href="../Curso/indexCurso.php">Mis cursos<span class="sr-only">(current)</span></a>
@@ -64,10 +64,7 @@
                             <a class="nav-link" href="../Usuario/login.php"> Ingresar </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="about.html"> Sobre Nosotros</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contactanos</a>
+                            <a class="nav-link" href="../uliya-html/contact.html">Contactanos</a>
                         </li>
                     </ul>
                 </div>
