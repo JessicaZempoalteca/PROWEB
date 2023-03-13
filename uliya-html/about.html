@@ -2,21 +2,32 @@
 <html>
 
 <head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PROWEB | Examen</title>
+  <link rel="stylesheet" href="./css/stylep.css">
+  <!-- FontAweome CDN Link for Icons-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+  <link rel="icon" type="image/png" sizes="16x16" href="./logo.png">
   <!-- Basic -->
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Mobile Metas -->
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
   <!-- Site Metas -->
   <meta name="keywords" content="" />
   <meta name="description" content="" />
   <meta name="author" content="" />
-
+  <link rel="icon" href="images/Circulo_cromatico.svg.png">
   <title>Uliya</title>
 
 
   <!-- bootstrap core css -->
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+  <link rel="stylesheet" href="./css/stylep.csss">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
 
   <!-- fonts style -->
   <link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet">
@@ -37,9 +48,9 @@
           <div class="col-lg-11 offset-lg-1">
             <nav class="navbar navbar-expand-lg custom_nav-container ">
               <a class="navbar-brand" href="index.html">
-                <img src="images/logo.png" alt="">
+                <img src="images/Circulo_cromatico.svg.png" alt="">
                 <span>
-                  Uliya
+                  PROWEB
                 </span>
               </a>
               </a>
@@ -51,22 +62,19 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <div class="d-flex ml-auto flex-column flex-lg-row align-items-center">
                   <ul class="navbar-nav  ">
-                    <li class="nav-item ">
-                      <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    <li class="nav-item">
+                      <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item active">
-                      <a class="nav-link" href="about.html"> About</a>
+                      <a class="nav-link" href="about.html"> Mis cursos </a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="portfolio.html"> Portfolio </a>
+                      <a class="nav-link" href="contact.html"> Contactanos </a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="contact.html">Contact Us</a>
+                      <a class="nav-link" href="../Usuario/login.php"> Ingresar </a>
                     </li>
                   </ul>
-                  <form class="form-inline">
-                    <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit"></button>
-                  </form>
                 </div>
 
               </div>
@@ -82,33 +90,70 @@
 
   <section class="about_section layout_padding">
     <div class="container">
-      <div class="heading_container">
-        <h2>
-          About Studio
-        </h2>
+      <div class="start_btn"><button>Iniciar Examen</button></div>
+
+      <!-- Info Box -->
+      <div class="info_box">
+          <div class="info-title"><span>Reglas de tu Examen en Línea</span></div>
+          <div class="info-list">
+              <div class="info">1. Solo tendrás <span>15 segundos</span> para responder cada pregunta.</div>
+              <div class="info">2. Una vez que seleccionas tu respuesta, no se puede deshacer.</div>
+              <div class="info">3. No puedes seleccionar ninguna opción una vez que se acaba el tiempo.</div>
+              <div class="info">4. No puedes salir del Quiz mientras está corriendo el tiempo.</div>
+              <div class="info">5. Obtendrás puntos con base en tus respuestas correctas.</div>
+          </div>
+          <div class="buttons">
+              <button class="quit">Salir</button>
+              <button class="restart">Continuar</button>
+          </div>
       </div>
-      <div class="box">
-        <div class="img-box">
-          <img src="images/about-img.jpg" alt="">
-          <div class="about_img-bg">
-            <img src="images/about-img-bg.png" alt="">
+  
+      <!-- Quiz Box -->
+      <div class="quiz_box">
+          <header>
+              <div class="title">Examen en línea</div>
+              <div class="timer">
+                  <div class="time_left_txt">Tiempo Restante</div>
+                  <div class="timer_sec">15</div>
+              </div>
+              <div class="time_line"></div>
+          </header>
+          <section>
+              <div class="que_text">
+                  <!-- Here I've inserted question from JavaScript -->
+              </div>
+              <div class="option_list">
+                  <!-- Here I've inserted options from JavaScript -->
+              </div>
+          </section>
+  
+          <!-- footer of Quiz Box -->
+          <footer>
+              <div class="total_que">
+                  <!-- Here I've inserted Question Count Number from JavaScript -->
+              </div>
+              <button class="next_btn">Siguiente Pregunta</button>
+          </footer>
+      </div>
+  
+      <!-- Result Box -->
+      <div class="result_box">
+          <div class="icon">
+              <i class="fas fa-crown"></i>
           </div>
-        </div>
-        <div class="detail-box">
-          <p>
-            It is a long established fact that a reader will be distracted by the readable content of a page when
-            looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of
-            letters,
-          </p>
-          <div>
-            <a href="">
-              about More
-            </a>
+          <div class="complete_text">Has finalizado tu examen!</div>
+          <div class="score_text">
+              <!-- Here I've inserted Score Result from JavaScript -->
           </div>
-        </div>
+          <div class="buttons">
+              <button class="restart">Repetir</button>
+              <button class="quit">Salir</button>
+          </div>
+      </div>
       </div>
     </div>
-
+<br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br>
   </section>
 
   <!-- end about section -->
@@ -121,7 +166,7 @@
         <div class="info_social">
           <div class="d-flex justify-content-center">
             <h4 class="">
-              Follow on
+              Siguenos en nuestras redes sociales
             </h4>
           </div>
           <div class="social_box">
@@ -164,6 +209,8 @@
 
   <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
   <script type="text/javascript" src="js/bootstrap.js"></script>
+  <script src="js/questionsBasic.js"></script>
+  <script src="js/script.js"></script>
 
 </body>
 
