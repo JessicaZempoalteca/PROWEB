@@ -365,10 +365,16 @@
             <div class="content-header">
                 <div class="container-fluid">
                     <div class="row"></div>
+                    <div class="row"></div>
                     <div class="row">
-                        <div class="col-sm-6">
-                            <h1 >INTRODUCCIÓN A HTML</h1>
+                        <div class="col-md-4">
+                            <br>
+                        </div>
+                        <div class="col-md-4">
+                            <br>
+                            <h1>INTRODUCCIÓN A HTML</h1>
                         </div><!-- /.col -->
+                        <div class="col-md-4"></div>
                     </div><!-- /.row -->
                 </div><!-- /.container-fluid -->
             </div>
@@ -379,7 +385,27 @@
                 <div class="container-fluid">
                     <!-- Small boxes (Stat box) -->
                     <div class="row">
+                        <br>
+                    </div>
+                    <div class="row">
                         <!-- ./col -->
+                        <div class="col-md-12">
+                            <h3>¿Qué es un elemento HTML?</h3>
+                            <p>Un elemento HTML se define mediante una etiqueta de inicio, algo de contenido y una etiqueta de final:</p>
+                            <img src="./resources/images/tag.png" alt="">
+                        </div>
+                    </div>
+                    <div class="row">
+                            <br><br>
+                        </div>
+                    <div class="row">
+                        
+                        <div class="col-md-12">
+                        <h3>Navegadores Web</h3>
+                            <p>El propósito de un navegador web (Chrome, Edge, Firefox, Safari) es leer documentos HTML y mostrarlos. correctamente.</p>
+                            <p>Un navegador no muestra las etiquetas HTML, sino que las utiliza para determinar cómo mostrar el documento:</p>
+                            <img src="./resources/images/tag.png" alt="">
+                        </div>
                     </div>
                     <!-- /.row -->
                 </div><!-- /.container-fluid -->
