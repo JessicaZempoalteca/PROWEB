@@ -117,6 +117,7 @@
                                 <p>
                                     HTML Estilos - CSS
                                 </p>
+
                             </a>
                         </li>
                         <li class="nav-item">
@@ -166,21 +167,25 @@
                     <div class="row">
                         <!-- ./col -->
                         <div class="col-md-12">
-                            <h3>¿Qué es un elemento HTML?</h3>
-                            <p>Un elemento HTML se define mediante una etiqueta de inicio, algo de contenido y una etiqueta de final:</p>
-                            <img src="./resources/images/tag.png" alt="">
+                            <h3>¿Qué son los estilos HTML?</h3>
+                            <p>Los estilos de diseño de sitios web son básicamente la apariencia general del sitio web</p>
                         </div>
                     </div>
                     <div class="row">
-                            <br><br>
+                            <br>
                         </div>
                     <div class="row">
-                        
                         <div class="col-md-12">
-                        <h3>Navegadores Web</h3>
-                            <p>El propósito de un navegador web (Chrome, Edge, Firefox, Safari) es leer documentos HTML y mostrarlos. correctamente.</p>
-                            <p>Un navegador no muestra las etiquetas HTML, sino que las utiliza para determinar cómo mostrar el documento:</p>
-                            <img src="./resources/images/tag.png" alt="">
+                        <h3>¿Qué es un CSS?</h3>
+                            <p>CSS <strong>(Hojas de Estilo en Cascada)</strong> es el código que se usa para dar estilo a tu página web. CSS, no es un legunaje de programación</p>
+                            <p> Es un lenguaje de hojas de estilo, es decir, te permite aplicar estilos de manera selectiva a elementos en documentos HTML</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                        <h3>¿Qué es un CSS?</h3>
+                            <p>CSS <strong>(Hojas de Estilo en Cascada)</strong> es el código que se usa para dar estilo a tu página web. CSS, no es un legunaje de programación</p>
+                            <p> Es un lenguaje de hojas de estilo, es decir, te permite aplicar estilos de manera selectiva a elementos en documentos HTML</p>
                         </div>
                     </div>
                     <!-- /.row -->
