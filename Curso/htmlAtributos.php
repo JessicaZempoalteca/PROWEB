@@ -181,13 +181,21 @@
                     <div class="row">
                             <br><br>
                         </div>
-                    <div class="row">
-                        
+                    <div class="row"> 
                         <div class="col-md-12">
-                        <h3>Navegadores Web</h3>
-                            <p>El propósito de un navegador web (Chrome, Edge, Firefox, Safari) es leer documentos HTML y mostrarlos. correctamente.</p>
-                            <p>Un navegador no muestra las etiquetas HTML, sino que las utiliza para determinar cómo mostrar el documento:</p>
-                            <img src="./resources/images/tag.png" alt="">
+                        <h3>El atributo href</h3>
+                            <p>La etiqueta define un hipervínculo. El atributo especifica la dirección URL de la página El enlace va a:< a >href</p>
+                            <img src="./resources/images/a.png" alt="">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <br><br>
+                    </div>
+                    <div class="row"> 
+                        <div class="col-md-12">
+                        <h3>El atributo src</h3>
+                            <p>La etiqueta se utiliza para incrustar un imagen en una página HTML. El atributo Especifica la ruta a la imagen que se va a mostrar:< img >src</p>
+                            <img src="./resources/images/src.png" alt="">
                         </div>
                     </div>
                     <!-- /.row -->
