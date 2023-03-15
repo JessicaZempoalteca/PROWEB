@@ -183,9 +183,16 @@
                     </div>
                     <div class="row">
                         <div class="col-md-12">
-                        <h3>¿Qué es un CSS?</h3>
-                            <p>CSS <strong>(Hojas de Estilo en Cascada)</strong> es el código que se usa para dar estilo a tu página web. CSS, no es un legunaje de programación</p>
-                            <p> Es un lenguaje de hojas de estilo, es decir, te permite aplicar estilos de manera selectiva a elementos en documentos HTML</p>
+                        <h2> Anatomía de una regla CSS </h2>
+                        <img src="./resources/images/anatomia.png" alt="100px" height="300px">
+                        <h4 style="color:red"><strong>Selector</strong></h4>
+                        <p>El elemento HTML en el que comienza la regla. Esta selecciona el(los) elemento(s) a dar estilo (en este caso, los elementos p )</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                        <h4 style="color:red"><strong>Declaración</strong></h4>
+                        <p>Una sola regla como color: red; especifica a cuál de las propiedades del elemento quieres dar estilo.</p>
                         </div>
                     </div>
                     <!-- /.row -->
