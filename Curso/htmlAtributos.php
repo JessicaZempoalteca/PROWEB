@@ -96,7 +96,7 @@
                         <!-- Add icons to the links using the .nav-icon class
                         with font-awesome or any other icon font library -->
                         <li class="nav-item ">
-                            <a href="./indexCurso.php" class="nav-link active">
+                            <a href="./indexCurso.php" class="nav-link ">
                                 <i class="nav-icon fas fa-th"></i>
                                 <p>
                                     HTML Básicos
@@ -104,7 +104,7 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="./htmlAtributos.php" class="nav-link">
+                            <a href="./htmlAtributos.php" class="nav-link active">
                                 <i class="nav-icon fas fa-copy"></i>
                                 <p>
                                     HTML Atributos
@@ -148,7 +148,7 @@
                         </div>
                         <div class="col-md-4">
                             <br>
-                            <h1>INTRODUCCIÓN A HTML</h1>
+                            <h1>ATRIBUTOS EN HTML</h1>
                         </div><!-- /.col -->
                         <div class="col-md-4"></div>
                     </div><!-- /.row -->
@@ -166,9 +166,16 @@
                     <div class="row">
                         <!-- ./col -->
                         <div class="col-md-12">
-                            <h3>¿Qué es un elemento HTML?</h3>
-                            <p>Un elemento HTML se define mediante una etiqueta de inicio, algo de contenido y una etiqueta de final:</p>
-                            <img src="./resources/images/tag.png" alt="">
+                            <h3>¿Qué son?</h3>
+                            <p>Los atributos HTML proporcionan información adicional sobre los elementos HTML.</p>
+                        </div>
+                        <div class="col-md-12">
+                            <ol>
+                                <li>Todos los elementos HTML pueden tener atributos</li>
+                                <li>Los atributos proporcionan información adicional sobre los elementos</li>
+                                <li>Los atributos siempre se especifican en la etiqueta de inicio</li>
+                                <li>Los atributos generalmente vienen en pares nombre / valor como: name = "value"</li>
+                            </ol>
                         </div>
                     </div>
                     <div class="row">

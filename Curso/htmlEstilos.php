@@ -96,7 +96,7 @@
                         <!-- Add icons to the links using the .nav-icon class
                         with font-awesome or any other icon font library -->
                         <li class="nav-item ">
-                            <a href="./indexCurso.php" class="nav-link active">
+                            <a href="./indexCurso.php" class="nav-link ">
                                 <i class="nav-icon fas fa-th"></i>
                                 <p>
                                     HTML Básicos
@@ -112,7 +112,7 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="./htmlEstilos.php" class="nav-link">
+                            <a href="./htmlEstilos.php" class="nav-link active">
                                 <i class="nav-icon fas fa-chart-pie"></i>
                                 <p>
                                     HTML Estilos - CSS
