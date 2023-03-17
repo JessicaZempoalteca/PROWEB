@@ -4,11 +4,11 @@ $black:#000000;
 
 
 @mixin main-font {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Courier New",monospace;
 }
 
 @mixin secondary-font {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Courier New",monospace;
 }
 
 @mixin hero_btn($col1, $col2, $pad1, $pad2, $bRadius, $hColor) {
