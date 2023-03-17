@@ -1,5 +1,5 @@
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Courier New",monospace;
   color: #0c0c0c;
   background-color: #ffffff;
 }
@@ -726,7 +726,7 @@ a:focus {
 .info_section {
   background-color: #211d25;
   color: #ffffff;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Courier New",monospace;
 }
 
 .info_section .info_container {
@@ -777,7 +777,7 @@ a:focus {
       -ms-flex-pack: center;
           justify-content: center;
   position: relative;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Courier New",monospace;
 }
 
 .footer_section p {

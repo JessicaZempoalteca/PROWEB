@@ -148,7 +148,7 @@
                         </div>
                         <div class="col-md-4">
                             <br>
-                            <h1>INTRODUCCIÓN A HTML</h1>
+                            <h1><strong>INTRODUCCIÓN A HTML</strong></h1>
                         </div><!-- /.col -->
                         <div class="col-md-4"></div>
                     </div><!-- /.row -->
@@ -166,18 +166,93 @@
                     <div class="row">
                         <!-- ./col -->
                         <div class="col-md-12">
-                            <h3>¿Qué es un elemento HTML?</h3>
+                            <h2>¿Qué es un elemento HTML?</h2>
                             <p>Un elemento HTML se define mediante una etiqueta de inicio, algo de contenido y una etiqueta de final:</p>
                             <img src="./resources/images/tag.png" alt="">
                         </div>
                     </div>
+                    <br>
                     <div class="row">
-                            <br><br>
+                        <!-- ./col -->
+                        <div class="col-md-12">
+                            <h2>Etiquetas Básicas de HTML</h2>
+                            <h4> < body > </ body ></h4>
+                            <p>Indica la parte del cuerpo del contenido de un documento HTML. Es una etiqueta esencial para cualquier documento ya que indica donde empieza el contenido visible del documento.</p>
+                        </div>
+                    </div> 
+                    <div class="row">
+                        <!-- ./col -->
+                        <div class="col-md-12">
+                            <h4>< head ></ head ></h4>
+                            <p>La parte superior del documento HTML, es donde podremos indicar los metadatos: título del documento, hojas de estilos, javaScript, CSS…</p>
+                        </div>
+                    </div> 
+                    <div class="row">
+                        <!-- ./col -->
+                        <div class="col-md-12">
+                            <h4>< div ></ div ></h4>
+                            <p>Para agrupar otros elementos y actuar como plantilla de otros controles. La etiqueta < div > nos ayuda a estructurar el documento en secciones.</p>
+                        </div>
+                    </div> 
+                    <div class="row">
+                        <!-- ./col -->
+                        <div class="col-md-12">
+                            <h4> < a ></ a ></h4>
+                            <p>Es una etiqueta que nos ayuda a poder crear un enlace a una página web. El atributo principal de la etiqueta HTML es href</p>
+                            <p><i>Ejemplo</i></p>
+                            <p>< a href= ”https://www.nombredelaweb.com/” target=”_blank” >aquí< /a ></p>
                         </div>
                     <div class="row">
-                        
+                        <!-- ./col -->
+                    <div class="col-md-12">
+                            <h4>< strong ></ strong ></h4>
+                            <p>Si tienes mucho texto, es importante poder dar énfasis a una parte en concreto, con la etiqueta strong lo podemos hacer.</p>
+                            <img src="./resources/images/strong.png" alt="100px" height="200px">
+                        </div>
+                    </div> 
+                    <div class="row">
+                    <div class="col-md-12">
+                            <h4>< H1...H6 ></ H1 ></h4>
+                            <p>Las etiquetas < H + número > nos permiten indicar la importancia del título y para estructurar el contenido.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                    <div class="col-md-12">
+                            <h4>< br ></h4>
+                            <p>Con esta etiqueta HTML le podemos decir al navegador que viene un salto de línea. Nos sirve para hacer el texto más leíble.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                    <div class="col-md-12">
+                            <h4>< img > </ img ></h4>
+                            <p>Usamos la etiqueta IMG para mostrar imágenes dentro del contenido. Necesita el atributo src para funcionar, ya que será donde indicaremos desde donde tiene que mostrar la imagen.</p>
+                            <img src="./resources/images/img.png" alt="100px" height="200px">
+                        </div>
+                    </div>
+                    <div class="row">
+                    <div class="col-md-12">
+                            <h4>< ul >... < ol >...< li ></h4>
+                            <p>Las etiquetas OL y LI nos sirven para crear listas, OL para listas ordenadas y UL para listas sin orden. Dentro de las listas, los elementos se identifican con la etiqueta LI.</p>
+                            <img src="./resources/images/liol.jpg" alt="100px" height="200px">
+                        </div>
+                    </div> 
+                    <div class="row">
+                    <div class="col-md-12">
+                            <h4>< p ></ p ></h4>
+                            <p>Etiqueta que nos sirve para agrupar texto dentro de un parágrafo. El propósito es poder hacer el contenido más fácil de leer y organizado.</p>
+                        </div>
+                    </div> 
+                    <div class="row">
+                    <div class="col-md-12">
+                            <h4>< span ></ span ></h4>
+                            <p>Con la etiqueta podemos personalizar el estilo de solamente una parte del texto..</p>
+                            <p><i>Ejemplo</i></p>
+                            <p>Solo < span style=”color: red;”>esta palabra< /span > en rojo.</p>
+                        </div>
+                    </div> 
+                    <div class="row">  
                         <div class="col-md-12">
-                        <h3>Navegadores Web</h3>
+                        <h4>Navegadores Web</h4>
                             <p>El propósito de un navegador web (Chrome, Edge, Firefox, Safari) es leer documentos HTML y mostrarlos. correctamente.</p>
                             <p>Un navegador no muestra las etiquetas HTML, sino que las utiliza para determinar cómo mostrar el documento:</p>
                             <img src="./resources/images/tag.png" alt="">
