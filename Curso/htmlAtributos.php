@@ -26,7 +26,9 @@
     <link rel="stylesheet" href="./resources/plugins/daterangepicker/daterangepicker.css">
     <!-- summernote -->
     <link rel="stylesheet" href="./resources/plugins/summernote/summernote-bs4.min.css">
+    <link rel="stylesheet" href="./resources/css/style.css">
     <link rel="icon" href="./resources/images/Circulo_cromatico.svg.png">
+
 </head>
 
 <body class="hold-transition sidebar-mini layout-fixed">
@@ -168,6 +170,7 @@
                         <div class="col-md-12">
                             <h3>¿Qué son?</h3>
                             <p>Los atributos HTML proporcionan información adicional sobre los elementos HTML.</p>
+                            <center> <img src="./resources/images/atributos.png" alt="100px" height="150px"></center>
                         </div>
                         <div class="col-md-12">
                             <ol>
@@ -183,9 +186,11 @@
                         </div>
                     <div class="row"> 
                         <div class="col-md-12">
-                        <h3>El atributo href</h3>
+                        <center><h2 style="color:black;">Lista de Atributos</h2></center>
+                        <center><h6 style="color:black;">y etiquetas donde aplican</h6></center>
+                        <h4>href</h4>
                             <p>La etiqueta define un hipervínculo. El atributo especifica la dirección URL de la página El enlace va a:< a >href</p>
-                            <img src="./resources/images/a.png" alt="">
+                            <center><img src="./resources/images/a.png" alt=""></center>
                         </div>
                     </div>
                     <div class="row">
@@ -193,9 +198,171 @@
                     </div>
                     <div class="row"> 
                         <div class="col-md-12">
-                        <h3>El atributo src</h3>
+                        <h4>src</h4>
                             <p>La etiqueta se utiliza para incrustar un imagen en una página HTML. El atributo Especifica la ruta a la imagen que se va a mostrar:< img >src</p>
-                            <img src="./resources/images/src.png" alt="">
+                            <center><img src="./resources/images/src.png" alt=""></center>
+                        </div>
+                    </div>
+                    <div class="row"> 
+                        <div class="col-md-12">
+                        <h4> accept < form>, < input></h4>
+                            <p>Tipos de archivos aceptados por el servidor. Puedes definirlos con valores separados por comas, por ejemplo: .doc, .ods, .txt, etc. O también puedes indicarle un conjunto de tipos de archivos, como por ejemplo: «video/*» o «audio/*»</p>
+                            <center><img src="./resources/images/accept.jpg"  alt="100px" height="150px"></center>
+                        </div>
+                    </div>
+                    <div class="row"> 
+                        <div class="col-md-12">
+                        <h4> action < form>, < input></h4>
+                            <p>El atributo especifica la URL dónde se enviarán los datos recogidos en el formulario, a menudo un archivo .php dentro del mismo servidor</p>
+                        </div>
+                    </div>
+                    <div class="row"> 
+                        <div class="col-md-12">
+                        <h4> aling  < img>, < table>, < tbody>, < td>, < tfoot> , < th>, < thead>, < tr></h4>
+                            <p>Especifica el alineamiento horizontal del elemento.
+                            Este atributo sigue funcionando pero no es aconsejable usarlo ya que está en desuso. Lo recomendable es usar reglas CSS en su lugar</p>
+                        </div>
+                    </div>
+                    <div class="row"> 
+                        <div class="col-md-12">
+                        <h4>async < scrip>, < input></h4>
+                            <p>Indica que el script debe ejecutarse de forma asíncrona.</p>
+                            <center><img src="./resources/images/async.jpg" alt="100px" height="200px"></center>
+                        </div>
+                    </div>
+                    <div class="row"> 
+                        <div class="col-md-12">
+                        <h4>border < img >, < object >, < table ></h4>
+                            <p>Permite definir un borde al elemento HTML.</p>
+                        </div>
+                    </div>
+                    <div class="row"> 
+                        <div class="col-md-12">
+                        <h4>charset < meta >, < script ></h4>
+                            <p>Atributo necesario par definir la codificación de caracteres de la página o del script</p>
+                            <center><img src="./resources/images/charset.png"  alt="100px" height="150px"></center>
+                        </div>
+                    </div>
+                    <div class="row"> 
+                        <div class="col-md-12">
+                        <h4>class Atributo Global</h4>
+                            <p>Otorga una clase creada en CSS a un elemento HTML. Se usa principalmente para aplicar estilos a elementos con propiedades en común.</p>
+                            <center><img src="./resources/images/class.webp" alt="100px" height="250px"></center>
+                        </div>
+                    </div>
+                    <div class="row"> 
+                        <div class="col-md-12">
+                        <h4>color < basefont >, < font >, < hr ></h4>
+                            <p>Atributo usado para indicar el color del texto de un elemento.</p>
+                        </div>
+                    </div>
+                    <div class="row"> 
+                        <div class="col-md-12">
+                        <h4>colspan < td >, < th ></h4>
+                            <p>Dentro de una tabla, define el número de columnas que una celda debe ocupar.</p>
+                        </div>
+                    </div>
+                    <div class="row"> 
+                        <div class="col-md-12">
+                        <h4>content < meta ></h4>
+                            <p>Un atributo que permite definir el contenido de la etiqueta HTML < eta > que acompaña.</p>
+                            <center><img src="./resources/images/content.png"  alt="100px" height="150px"></center>
+                        </div>
+                    </div>
+                    <div class="row"> 
+                        <div class="col-md-12">
+                        <h4>controls < audio >, < video ></h4>
+                            <p>Indica si el navegador debe mostrar los controles multimedia del reproductor integrado al usuario.</p>
+                        </div>
+                    </div>
+                    <div class="row"> 
+                        <div class="col-md-12">
+                        <h4>data < object ></h4>
+                            <p>Especifica la URL, absoluta o relativa del objeto o recurso.</p>
+                        </div>
+                    </div>
+                    <div class="row"> 
+                        <div class="col-md-12">
+                        <h4>dir Atributo Global</h4>
+                            <p>	Con este atributo puedes definir la dirección del texto en un elemento HTML. Los valores permitidos son ltr (Izquierda-a-Derecha) o rtl (Derecha-a-Izquierda).</p>
+                        </div>
+                    </div>
+                    <div class="row"> 
+                        <div class="col-md-12">
+                        <h4>disabled < button >, < command >, < fieldset >, < input >, < keygen >, < optgroup >, < option >, < select >, < textarea ></h4>
+                            <p>Permite que un elemento HTML esté deshabilitado y el usuario no pueda interactuar con el.</p>
+                        </div>
+                    </div>
+                    <div class="row"> 
+                        <div class="col-md-12">
+                        <h4>enctype	< form ></h4>
+                            <p>Define el tipo de contenido del formulario cuando el método del mismo es POST.</p>
+                        </div>
+                    </div>
+                    <div class="row"> 
+                        <div class="col-md-12">
+                        <h4>for	< label >, < output ></h4>
+                            <p>Atributo usado para asociar o describir elementos que pertenecen a éste.</p>
+                        </div>
+                    </div>
+                    <div class="row"> 
+                        <div class="col-md-12">
+                        <h4>form < button>, < fieldset>, < input>, < keygen>, < label>, < object>, < output>, < select>, < textarea></h4>
+                            <p>Atributo para indicar el formulario al que pertenece el elemento.</p>
+                        </div>
+                    </div>
+                    <div class="row"> 
+                        <div class="col-md-12">
+                        <h4>id Atributo Global</h4>
+                            <p>Usado para asignar un identificador único a un elemento HTML. Usado generalmente para acceder al mismo desde CSS o Javascript</p>
+                        </div>
+                    </div>
+                    <div class="row"> 
+                        <div class="col-md-12">
+                        <h4>method < form ></h4>
+                            <p>Define el método HTTP a emplear para enviar el formulario. Puede ser GET (predeterminado) o POST.</p>
+                        </div>
+                    </div>
+                    <div class="row"> 
+                        <div class="col-md-12">
+                        <h4>name < button>, < form>, < fieldset>, < iframe>, < input></h4>
+                            <p>Nombre del elemento. Utilizado a menudo por el servidor para identificar los campos en el envío de formularios</p>
+                        </div>
+                    </div>
+                    <div class="row"> 
+                        <div class="col-md-12">
+                        <h4>placeholder	< input >, < textarea ></h4>
+                            <p>Proporciona una sugerencia al usuario de lo que puede ser introducido en el campo de un formulario.</p>
+                        </div>
+                    </div>
+                    <div class="row"> 
+                        <div class="col-md-12">
+                        <h4>required < input >, < select >, < textarea ></h4>
+                            <p>Con este atributo hacemos que la etiqueta Html sea, o no, de obligada cumplimentación.</p>
+                        </div>
+                    </div>
+                    <div class="row"> 
+                        <div class="col-md-12">
+                        <h4>selected < option ></h4>
+                            <p>Define un valor que aparecerá por defecto seleccionado al cargar la página.</p>
+                        </div>
+                    </div>
+                    <div class="row"> 
+                        <div class="col-md-12">
+                        <h4>size < input >, < select ></h4>
+                            <p>Define el ancho del elemento (en píxeles).</p>
+                        </div>
+                    </div>
+                    <div class="row"> 
+                        <div class="col-md-12">
+                        <h4>type < button >, < input >, < command >, < embed >, < object >, < script >, < source >, < style >, < menu ></h4>
+                            <p>Define el tipo de elemento HTML.</p>
+                        </div>
+                    </div>
+                    <div class="row"> 
+                        <div class="col-md-12">
+                        <h4>value	< button >, < option >, < input >, < li >, < meter >, < progress >, < param ></h4>
+                            <p>Define el valor predeterminado a ser mostrado al cargar la página.</p>
                         </div>
                     </div>
                     <!-- /.row -->

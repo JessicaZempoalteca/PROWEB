@@ -288,6 +288,19 @@
                             <p><strong>Solo < span style=”color: red;”>esta palabra< /span > en rojo.</strong></p>
                         </div>
                     </div> 
+                    <div class="row">
+                        <!-- ./col -->
+                        <div class="col-md-12">
+                            <center><h2 style="color:black;">Los parrafos y su alineamiento </h2></center>
+                            <p>La etiqueta <strong>< BR ></strong> inserta un salto de línea, pero no un salto de párrafo.En cambio, la etiqueta <strong>< P >...< /P ></strong> inserta una salto de línea y una línea en blanco, por lo que, en la práctica, equivale a un nuevo párrafo.</p>
+                            <p>Un párrafo puede alinearse introduciendo los siguientes atributos en la etiqueta habitual</p>
+                            <center><img src="./resources/images/textoalineado.jpg" alt="120px" height="100px"></center>
+                            <p>Las etiquetas anteriores permiten alinear los párrafos enteros, pero siempre dejando una línea vacía delante de cada uno de ellas. ¿Hay alguna manera de alinear independientemente líneas o grupos de líneas? Sí, con las siguientes etiquetas:</p>
+                            <center><img src="./resources/images/divalineado.jpg" alt="120px" height="100px"></center>
+                            <br>
+                            <br>
+                        </div>
+                    </div>
                     <div class="row">  
                         <div class="col-md-12">
                         <h4 style="color:black;">Navegadores Web</h4>
