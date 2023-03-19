@@ -1,7 +1,15 @@
 body {
-  font-family: "Courier New",monospace;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: #0c0c0c;
   background-color: #ffffff;
+}
+
+p{
+  text-align: justify;
+}
+
+h1,h2,h4,h5,h6{
+  color: #565196;
 }
 
 .layout_padding {

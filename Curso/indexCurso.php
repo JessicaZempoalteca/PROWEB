@@ -27,6 +27,7 @@
     <!-- summernote -->
     <link rel="stylesheet" href="./resources/plugins/summernote/summernote-bs4.min.css">
     <link rel="icon" href="./resources/images/Circulo_cromatico.svg.png">
+    <link rel="stylesheet" href="./resources/css/style.css">
 </head>
 
 <body class="hold-transition sidebar-mini layout-fixed">
@@ -148,7 +149,7 @@
                         </div>
                         <div class="col-md-4">
                             <br>
-                            <h1><strong>INTRODUCCIÓN A HTML</strong></h1>
+                            <h3><strong>INTRODUCCIÓN A HTML</strong></h3>
                         </div><!-- /.col -->
                         <div class="col-md-4"></div>
                     </div><!-- /.row -->
@@ -166,16 +167,48 @@
                     <div class="row">
                         <!-- ./col -->
                         <div class="col-md-12">
-                            <h2>¿Qué es un elemento HTML?</h2>
-                            <p>Un elemento HTML se define mediante una etiqueta de inicio, algo de contenido y una etiqueta de final:</p>
-                            <img src="./resources/images/tag.png" alt="">
+                            <h2 style="color:black;">¿Qué es HTML?</h2>
+                            <p>HTML no es un lenguaje de programación; es un lenguaje de marcado que define la estructura de tu contenido. HTML consiste en una serie de elementos que usarás para encerrar diferentes partes del contenido para que se vean o comporten de una determinada manera.</p>
                         </div>
                     </div>
                     <br>
                     <div class="row">
                         <!-- ./col -->
                         <div class="col-md-12">
-                            <h2>Etiquetas Básicas de HTML</h2>
+                            <center><h4 style="color:black;">Anatomia de un documento HTML</h4>
+                            <img src="./resources/images/anatomiaHTML.jpg" alt="100px" height="300px"></center>
+                        </div>
+                    </div>
+                    <br>
+                    <br>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h4> < !DOCTYPE html > </h4>
+                            <p> informa al navegador qué versión de HTML (o XML) se usó para escribir el documento. Doctype es una declaración no una etiqueta</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h4> < html > < /html > </h4>
+                            <p>Este elemento encierra todo el contenido de la página entera y, a veces, se le conoce como el elemento raíz (root element).</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h4> < meta charset="utf-8" > </h4>
+                            <p>Este elemento establece el juego de caracteres que el documento usará en utf-8, que incluye casi todos los caracteres de todos los idiomas humanos. </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h4> < title > < /title > </h4>
+                            <p>establece el título de tu página, que es el título que aparece en la pestaña o en la barra de título del navegador cuando la página es cargada</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <!-- ./col -->
+                        <div class="col-md-12">
+                            <center> <h2 style="color:black;">Etiquetas Básicas de HTML</h2></center>
                             <h4> < body > </ body ></h4>
                             <p>Indica la parte del cuerpo del contenido de un documento HTML. Es una etiqueta esencial para cualquier documento ya que indica donde empieza el contenido visible del documento.</p>
                         </div>
@@ -200,7 +233,7 @@
                             <h4> < a ></ a ></h4>
                             <p>Es una etiqueta que nos ayuda a poder crear un enlace a una página web. El atributo principal de la etiqueta HTML es href</p>
                             <p><i>Ejemplo</i></p>
-                            <p>< a href= ”https://www.nombredelaweb.com/” target=”_blank” >aquí< /a ></p>
+                            <p><strong>< a href= ”https://www.nombredelaweb.com/” target=”_blank” >aquí< /a ></strong></p>
                         </div>
                     <div class="row">
                         <!-- ./col -->
@@ -208,6 +241,8 @@
                             <h4>< strong ></ strong ></h4>
                             <p>Si tienes mucho texto, es importante poder dar énfasis a una parte en concreto, con la etiqueta strong lo podemos hacer.</p>
                             <img src="./resources/images/strong.png" alt="100px" height="200px">
+                            <br>
+                    <br>
                         </div>
                     </div> 
                     <div class="row">
@@ -229,11 +264,14 @@
                             <img src="./resources/images/img.png" alt="100px" height="200px">
                         </div>
                     </div>
+                    <br>
                     <div class="row">
                     <div class="col-md-12">
                             <h4>< ul >... < ol >...< li ></h4>
                             <p>Las etiquetas OL y LI nos sirven para crear listas, OL para listas ordenadas y UL para listas sin orden. Dentro de las listas, los elementos se identifican con la etiqueta LI.</p>
                             <img src="./resources/images/liol.jpg" alt="100px" height="200px">
+                            <br>
+                            <br>
                         </div>
                     </div> 
                     <div class="row">
@@ -247,12 +285,12 @@
                             <h4>< span ></ span ></h4>
                             <p>Con la etiqueta podemos personalizar el estilo de solamente una parte del texto..</p>
                             <p><i>Ejemplo</i></p>
-                            <p>Solo < span style=”color: red;”>esta palabra< /span > en rojo.</p>
+                            <p><strong>Solo < span style=”color: red;”>esta palabra< /span > en rojo.</strong></p>
                         </div>
                     </div> 
                     <div class="row">  
                         <div class="col-md-12">
-                        <h4>Navegadores Web</h4>
+                        <h4 style="color:black;">Navegadores Web</h4>
                             <p>El propósito de un navegador web (Chrome, Edge, Firefox, Safari) es leer documentos HTML y mostrarlos. correctamente.</p>
                             <p>Un navegador no muestra las etiquetas HTML, sino que las utiliza para determinar cómo mostrar el documento:</p>
                             <img src="./resources/images/tag.png" alt="">
