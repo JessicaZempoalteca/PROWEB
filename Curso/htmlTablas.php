@@ -27,6 +27,25 @@
     <!-- summernote -->
     <link rel="stylesheet" href="./resources/plugins/summernote/summernote-bs4.min.css">
     <link rel="icon" href="./resources/images/Circulo_cromatico.svg.png">
+
+    <style>
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        td,
+        th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #dddddd;
+        }
+    </style>
 </head>
 
 <body class="hold-transition sidebar-mini layout-fixed">
@@ -39,7 +58,7 @@
 
         <!-- Navbar -->
         <nav class="main-header navbar navbar-expand navbar-white navbar-light">
-                <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
+            <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
             <a class="navbar-brand" href="../uliya-html/index.html">
                 <img src="./resources/images/Circulo_cromatico.svg.png" alt="" height="20px">
                 <span>
@@ -127,7 +146,7 @@
                                 </p>
                             </a>
                         </li>
-                        
+
                     </ul>
                 </nav>
                 <!-- /.sidebar-menu -->
@@ -148,7 +167,7 @@
                         </div>
                         <div class="col-md-4">
                             <br>
-                            <h1>INTRODUCCIÓN A HTML</h1>
+                            <h1>TABLAS EN HTML</h1>
                         </div><!-- /.col -->
                         <div class="col-md-4"></div>
                     </div><!-- /.row -->
@@ -165,22 +184,77 @@
                     </div>
                     <div class="row">
                         <!-- ./col -->
-                        <div class="col-md-12">
-                            <h3>¿Qué es un elemento HTML?</h3>
-                            <p>Un elemento HTML se define mediante una etiqueta de inicio, algo de contenido y una etiqueta de final:</p>
-                            <img src="./resources/images/tag.png" alt="">
+                        <div class="col-md-8">
+                            <h3>¿Qué son?</h3>
+                            <p>Las tablas HTML permiten a los desarrolladores web organizar los datos en filas y Columnas.</p>
+                            <table>
+                                <tr>
+                                    <th>Company</th>
+                                    <th>Contact</th>
+                                    <th>Country</th>
+                                </tr>
+                                <tr>
+                                    <td>Alfreds Futterkiste</td>
+                                    <td>Maria Anders</td>
+                                    <td>Germany</td>
+                                </tr>
+                                <tr>
+                                    <td>Centro comercial Moctezuma</td>
+                                    <td>Francisco Chang</td>
+                                    <td>Mexico</td>
+                                </tr>
+                                <tr>
+                                    <td>Ernst Handel</td>
+                                    <td>Roland Mendel</td>
+                                    <td>Austria</td>
+                                </tr>
+                                <tr>
+                                    <td>Island Trading</td>
+                                    <td>Helen Bennett</td>
+                                    <td>UK</td>
+                                </tr>
+                                <tr>
+                                    <td>Laughing Bacchus Winecellars</td>
+                                    <td>Yoshi Tannamuri</td>
+                                    <td>Canada</td>
+                                </tr>
+                                <tr>
+                                    <td>Magazzini Alimentari Riuniti</td>
+                                    <td>Giovanni Rovelli</td>
+                                    <td>Italy</td>
+                                </tr>
+                            </table>
                         </div>
                     </div>
                     <div class="row">
-                            <br><br>
-                        </div>
+                        <br><br>
+                    </div>
                     <div class="row">
-                        
+                        <div class="col-md-8">
+                            <h3>Definir una tabla HTML</h3>
+                            <p>Una tabla en HTML consta de celdas de tabla dentro de filas y columnas.</p>
+                            
+                            <table>
+                                <tr>
+                                    <th>Company</th>
+                                    <th>Contact</th>
+                                    <th>Country</th>
+                                </tr>
+                                <tr>
+                                    <td>Alfreds Futterkiste</td>
+                                    <td>Maria Anders</td>
+                                    <td>Germany</td>
+                                </tr>
+                                <tr>
+                                    <td>Centro comercial Moctezuma</td>
+                                    <td>Francisco Chang</td>
+                                    <td>Mexico</td>
+                                </tr>
+                            </table>
+                        </div>
                         <div class="col-md-12">
-                        <h3>Navegadores Web</h3>
-                            <p>El propósito de un navegador web (Chrome, Edge, Firefox, Safari) es leer documentos HTML y mostrarlos. correctamente.</p>
-                            <p>Un navegador no muestra las etiquetas HTML, sino que las utiliza para determinar cómo mostrar el documento:</p>
-                            <img src="./resources/images/tag.png" alt="">
+                            <br>
+                        <img src="./resources/images/table.png" alt="">
                         </div>
                     </div>
                     <!-- /.row -->
